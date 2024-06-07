@@ -1,0 +1,18 @@
+[project]
+name = "code-runner-python-imp"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Benoit Deveaux", email = "contact.flapili@gmail.com" }
+]
+dependencies = [
+    "fastapi[websockets]>=0.111.0",
+    "aiodocker>=0.21.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
